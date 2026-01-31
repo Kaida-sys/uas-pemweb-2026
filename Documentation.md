@@ -1,4 +1,4 @@
-# UTS PEMWEB
+# UAS PEMWEB
 
 ### Oleh  
 **20230801543 - Wiedy Marchzindy**
@@ -45,13 +45,28 @@ Terlampir file BRD berdasarkan hasil SLR dengan nama: **`BRD.pdf`**
 ---
 
 ## IMPLEMENTASI WEBSITE
-
 ```bash
 1. cd boilerplate
-2. ./start.sh uts-pemweb
-3. cd uts-pemweb
+2. ./start.sh uas-pemweb
+3. cd uas-pemweb
 4. cd src
 5. code .
 6. template website dengan ide saya diambil dari https://themewagon.com/themes/nova-bootstrap5_beta1/
 7. cd resource/views
 8. mkdir layouts && mkdir pages && mkdir partials
+9. dcm CompanyProfile, Contact, Feature, Hero, Service, Service Request
+10. membuat file layouts/app.blade.php sebagai layout utama
+11. membuat file pages/home.blade.php sebagai halaman utama
+12. memecah template menjadi partials (header, hero, feature, about, service, contact, footer)
+13. membuat hero section dinamis dari database
+14. membuat feature (keunggulan) dinamis dari database
+15. membuat halaman about / company profile
+16. membuat layanan (service) yang dapat diklik
+17. membuat form permintaan layanan (service request)
+18. menjalankan migrate untuk membuat tabel database
+19. membuat Filament Resource untuk setiap data master
+20. menghubungkan frontend dengan data dari database
+21. membuat route untuk submit permintaan layanan
+22. membuat API untuk service request
+23. menguji input data dari admin ke frontend
+24. menguji pengiriman data melalui API
